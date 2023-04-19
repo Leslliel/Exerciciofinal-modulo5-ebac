@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav li a,
+header h1,
+body h2,
+body h3,
+form button,
+footer { 
+    font-family: 'Patua One', cursive;
+    font-weight: normal;
+    color: #dadada;
+}
+
+body, input, textarea{
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 36px 0;
+}
+
+body {
+    background-color: #4D4D4D;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 19px;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #a8a8a8;
+}
+
+
+.jogo .container img {
+    margin: auto;
+    display: block;
+    margin-bottom: 12px;
+}
+
+body h2{
+    padding: 15px 0;
+    text-align: center;
+    color: #dadada;
+}
+
+.jogo .container img {
+    height: 500px;
+}
+
+.text-game p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #dadada;
+}
+
+.artes,
+.artes h2,
+.contato h2{
+    text-align: left;
+}
+
+
+.artes {
+    background-color: #000000;
+}
+
+.artes ul img {
+    height: 300px;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+}
+
+.shop-links img {
+    height: 35px;
+}
+
+.shop-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.shop-links li a {
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h3{
+    text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1d1d1d;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    padding: 16px 0;
+}
